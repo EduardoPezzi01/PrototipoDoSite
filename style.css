@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+
 }
 
 
@@ -170,6 +171,7 @@ header .menu {
 .item-servico img {
     width: 80%;
     margin: auto;
+    
 
 }
 
@@ -211,4 +213,41 @@ header .menu {
 .card-title{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
+}
+
+
+
+@media (max-width: 1000px) {
+    .flex-container menu {
+        width: 100%;
+    }
+}
+
+@media(max-width: 750px) {
+
+    .imagem-home {
+        display: none;
+    }
+}
+
+@media(max-width:750px) {
+
+    .texto-apresentacao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: justify;
+}
+}
+
+@media(max-width:700px){
+    .list-planos{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: justify;
+}
 }
